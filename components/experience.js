@@ -30,7 +30,32 @@ export default function Experience() {
                     <div className="flex flex-row text-gray-300 text-opacity-50 hover:text-opacity-100 transition-colors bg-sky-50 bg-opacity-10 px-3 py-1 rounded-3xl border border-opacity-35 border-sky-500">Wix</div>
                 </div>
             </div>
+            <div className="shadow-lg w-[50%] rounded-lg p-6">
+                <div className="flex flex-col md:flex-row justify-between items-end">
+                    <div>
+                        <h3 className="text-xl font-bold ">UI/UX Intern</h3>
+                        <p className="text-gray-300 o">MARCo Health Inc.</p>
+                    </div>
 
+                    <div className="flex flex-col md:flex-col justify-between items-end">
+                        <p className="text-gray-300 ">02/2024  - Present</p>
+                        <p className="text-gray-300 ">Jersey City, NJ</p>
+                    </div>
+                </div>
+
+                <ul className="mt-4 text-gray-300 list-disc font-sans pl-5 ">
+                    <li>Evaluated existing app and website to identify areas of UI improvement.</li>
+                    <li>Designed user interface layouts using wireframes and prototypes.</li>
+                    <li>Created detailed wireframes, storyboards, user flows and process flows to effectively communicate interaction and design ideas.</li>
+                    <li>Developed style guides for visual elements such as branding systems, typography standards, color schemes, photography styles.</li>
+                </ul>
+                <div className="flex flex-row gap-4 items-end font-sans pt-6">
+                    <div className="flex flex-row text-gray-300 text-opacity-50 hover:text-opacity-100 transition-colors bg-sky-50 bg-opacity-10 px-3 py-1 rounded-3xl border border-opacity-35 border-sky-500">React</div>
+                    <div className="flex flex-row text-gray-300 text-opacity-50 hover:text-opacity-100 transition-colors bg-sky-50 bg-opacity-10 px-3 py-1 rounded-3xl border border-opacity-35 border-sky-500">Tailwind</div>
+                    <div className="flex flex-row text-gray-300 text-opacity-50 hover:text-opacity-100 transition-colors bg-sky-50 bg-opacity-10 px-3 py-1 rounded-3xl border border-opacity-35 border-sky-500">Google AI Studio</div>
+
+                </div>
+            </div>
 
             <div className="shadow-lg w-[50%] rounded-lg p-6">
                 <div className="flex flex-col md:flex-row justify-between items-end">
