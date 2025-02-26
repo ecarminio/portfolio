@@ -6,9 +6,7 @@ export default function Nav() {
             <a className="flex items-center font-mono" href="">
                 <p className="text-3xl text-sky-300 ">Eric Carminio</p>
             </a>
-            <a className="flex items-center font-mono" href="">
-                <p className=" text-sky-300 ">contact</p>
-            </a>
+            <a href="/eric-carminio-resume.pdf" download className="bg-slate-50 bg-opacity-10 border border-sky-500 hover:bg-sky-500 px-6 py-2 text-white hover:text-black font-mono rounded-xl">Download Resume</a>
         </nav>
     );
 }

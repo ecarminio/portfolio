@@ -1,8 +1,8 @@
 
 export default function Education() {
     return (
-        <div className="container flex items-center justify-center flex-col gap-6 mx-auto font-mono py-20 ">
-            <h1 className="text-2xl">education</h1>
+        <div className="container flex items-center justify-center flex-col gap-6 mx-auto font-mono pt-20 ">
+            <h1 className="text-2xl p-10">education</h1>
             <div className="flex flex-row gap-6 justify-center">
                 <div className="shadow-lg w-[20%] bg-sky-500 bg-opacity-10 hover:bg-opacity-30 rounded-lg p-6 border-sky-500 border border-opacity-30">
                     <div className="flex flex-col  justify-between items-center">
