@@ -20,7 +20,7 @@ const Chatbot = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer YOUR_OPENAI_API_KEY`, // Replace this
+          "Authorization": `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`, // Replace this
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
