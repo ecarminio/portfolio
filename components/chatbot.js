@@ -20,7 +20,8 @@ const Chatbot = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer YOUR_OPENAI_API_KEY`, // Replace this
+          "Authorization": `Bearer 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
+`, // Replace this
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
@@ -55,7 +56,7 @@ const Chatbot = () => {
 
   return (
     <div className="flex flex-col items-center w-full min-h-screen text-white p-4 md:p-6">
-      <h1 className="text-2xl font-mono py-6 text-center">Have more questions?</h1>
+      <h1 className="text-4xl md:text-6xl font-mono pt-40 pb-20 text-center">Have more questions?</h1>
       
       <div className="w-full max-w-2xl flex flex-col space-y-4 bg-gray-800 p-4 rounded-lg shadow-lg h-[600px] md:h-[500px] sm:h-[400px] overflow-hidden">
         
@@ -71,7 +72,7 @@ const Chatbot = () => {
               }`}
             >
               {msg.text.split("\n").map((line, i) => (
-                <p key={i} className="whitespace-pre-wrap">{line}</p>
+                <p key={i} className="whitespace-pre-wrap">{line}</p> 
               ))}
             </div>
           ))}

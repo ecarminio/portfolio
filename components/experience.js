@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
         <div className="container flex flex-col items-center justify-center gap-10 px-6 md:px-10 mx-auto font-mono">
-            <h1 className="text-2xl md:text-3xl text-center">Experience</h1>
+            <h1 className="text-4xl md:text-6xl text-center">experience</h1>
 
             {/* Freelancer */}
             <div className="shadow-lg w-full md:w-[75%] lg:w-[50%] rounded-lg p-6">

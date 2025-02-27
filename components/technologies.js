@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Technologies() {
     return (
         <div className="flex flex-col items-center justify-center gap-6 p-10 sm:p-16 md:p-20 lg:p-28">
-            <h2 className="text-center text-2xl font-mono p-10">technologies</h2>
+            <h2 className="text-center text-4xl md:text-6xl font-mono p-10">technologies</h2>
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div 
                     animate={{ rotate: 360 }} 

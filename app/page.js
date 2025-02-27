@@ -10,11 +10,9 @@ import Chatbot from "../components/chatbot";
 import Projects from "../components/projects";
 
 
-
-
 export default function Home() {
   return (
-    <main className="flex flex-col items-center w-full min-h-screen pb-0 gap-16">
+    <main className="flex flex-col items-center min-h-screen pb-0 px-0 overflow-hidden">
       <Nav />
       <AboutMe />
       <Projects />
@@ -24,7 +22,6 @@ export default function Home() {
       <CTA />
       <Chatbot />
       <Footer />
-
     </main>
   );
 }
